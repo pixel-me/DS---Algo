@@ -178,7 +178,8 @@ int main(int argc, char const *argv[])
     int s, d, c, f = 1;
     for (int i = 0; i < g->e; i++)
     {
-        printf("Enter the source vertes: ");
+        printf("\nLet's make a Edge number %d\n",i+1);
+        printf("\nEnter the source vertes: ");
         scanf("%d", &s);
         if (f)
         {
